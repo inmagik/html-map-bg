@@ -1,7 +1,7 @@
 {
   "title" : "Bergamo Example",
   "map" : {
-    "center" : [9.55, 45.65],
+    "center" : [9.60, 45.69],
     "centerProjection" : "EPSG:4326",
     "zoom" : 12,
     "minZoom" : 10,

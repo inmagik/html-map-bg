@@ -15,7 +15,7 @@
     {
       "name" : "darkmatter",
       "layerType" : "cartodb",
-      "layerOptions" : { "layer" : "dark-matter" }
+      "layerOptions" : { "layer" : "positron" }
     },
     {
       "name" : "water-points",

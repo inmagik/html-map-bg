@@ -1,5 +1,5 @@
 {
-  "title" : "My map",
+  "title" : "Bergamo Example",
   "map" : {
     "center" : [9.2, 45.483333],
     "centerProjection" : "EPSG:4326",
@@ -16,7 +16,7 @@
       "name" : "darkmatter",
       "layerType" : "cartodb",
       "layerOptions" : { "layer" : "dark-matter" }
-    }
+    },
     {
       "name" : "fermate_metro",
       "layerType" : "geojson",

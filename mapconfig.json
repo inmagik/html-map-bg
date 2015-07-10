@@ -21,17 +21,13 @@
       "name" : "water-points",
       "layerType" : "geojson",
       "layerOptions" : { "url" : "https://cdn.rawgit.com/inmagik/html-map-bg/master/vectors/water_point_wgs.geojson" },
-      "templatePopup" : "templates/table.html",
-      "minZoom" : 12,
-      "maxZoom" : 14
+      "templatePopup" : "templates/table.html"
     },
     {
       "name" : "museums",
       "layerType" : "geojson",
       "layerOptions" : { "url" : "https://cdn.rawgit.com/inmagik/html-map-bg/master/vectors/museum_wgs.geojson" },
-      "templatePopup" : "templates/table.html",
-      "minZoom" : 12,
-      "maxZoom" : 14
+      "templatePopup" : "templates/table.html"
     }
 
   ]

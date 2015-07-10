@@ -1,0 +1,31 @@
+{
+  "title" : "My map",
+  "map" : {
+    "center" : [9.2, 45.483333],
+    "centerProjection" : "EPSG:4326",
+    "zoom" : 12,
+    "minZoom" : 10,
+    "maxZoom" : 17,
+    "extent" : [9.0, 45.2, 10, 46 ],
+    "extentProjection" : "EPSG:4326"
+  },
+
+  "layers" : [
+
+    {
+      "name" : "darkmatter",
+      "layerType" : "cartodb",
+      "layerOptions" : { "layer" : "dark-matter" }
+    }
+    {
+      "name" : "fermate_metro",
+      "layerType" : "geojson",
+      "layerOptions" : { "url" : "vectors/water_point.geojson" },
+      "templatePopup" : "templates/example.html",
+      "minZoom" : 12,
+      "maxZoom" : 14
+    }
+
+  ]
+
+}
